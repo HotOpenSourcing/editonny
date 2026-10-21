@@ -5,9 +5,9 @@
   "type": "module",
   "description": "Public editonny guide: request builder, scene catalog, examples, and installation.",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "typecheck": "next typegen && tsc --noEmit",
     "test:e2e": "next build && playwright test"
   },

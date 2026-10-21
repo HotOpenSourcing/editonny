@@ -3,8 +3,6 @@ __pycache__/
 *.py[cod]
 .venv/
 node_modules/
-.env
-.env.*
 !.env.example
 .work/
 dist/
@@ -24,7 +22,6 @@ graphify-out/
 # Local environments, editor settings, and test output
 venv/
 .idea/
-.vscode/
 htmlcov/
 .coverage.*
 *.egg-info/
@@ -47,3 +44,4 @@ docs/superpowers/
 next-env.d.ts
 *.tsbuildinfo
 .vercel/
+config.bat

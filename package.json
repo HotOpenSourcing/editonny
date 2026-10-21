@@ -6,8 +6,8 @@
     "web"
   ],
   "scripts": {
-    "dev": "npm run dev -w @editonny/web",
-    "build": "npm run build -w @editonny/web",
+    "dev": "node init && npm run dev -w @editonny/web",
+    "build": "node init && npm run build -w @editonny/web",
     "icons": "node design-system/scripts/icons.mjs",
     "check:icons": "node design-system/scripts/icons.mjs --check",
     "readme:art": "node scripts/readme-art/build.mjs",
